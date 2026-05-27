@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+gem "telegram-bot-ruby", "~> 0.19"
+gem "rufus-scheduler",   "~> 3.9"
+gem "sequel",            "~> 5.80"
+gem "sqlite3",           "~> 1.7"
