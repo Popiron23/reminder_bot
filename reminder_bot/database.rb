@@ -1,6 +1,6 @@
 require "sequel"
 
-DB = Sequel.connect("sqlite://reminders.db")
+DB = Sequel.connect("sqlite:///app/data/reminders.db")
 
 DB.create_table? :users do
   primary_key :id
