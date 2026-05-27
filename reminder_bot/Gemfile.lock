@@ -1,0 +1,69 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    bigdecimal (4.1.2)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    concurrent-ruby (1.3.6)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    dry-inflector (1.3.1)
+    et-orbi (1.4.0)
+      tzinfo
+    faraday (2.14.2)
+      faraday-net_http (>= 2.0, < 3.5)
+      json
+      logger
+    faraday-multipart (1.2.0)
+      multipart-post (~> 2.0)
+    faraday-net_http (3.4.3)
+      net-http (~> 0.5)
+    fugit (1.12.1)
+      et-orbi (~> 1.4)
+      raabro (~> 1.4)
+    ice_nine (0.11.2)
+    json (2.19.5)
+    logger (1.7.0)
+    mini_portile2 (2.8.9)
+    multipart-post (2.4.1)
+    net-http (0.9.1)
+      uri (>= 0.11.1)
+    raabro (1.4.0)
+    rufus-scheduler (3.9.2)
+      fugit (~> 1.1, >= 1.11.1)
+    sequel (5.104.0)
+      bigdecimal
+    sqlite3 (1.7.3)
+      mini_portile2 (~> 2.8.0)
+    telegram-bot-ruby (0.23.0)
+      dry-inflector
+      faraday (~> 2.0)
+      faraday-multipart (~> 1.0)
+      virtus (~> 2.0)
+    thread_safe (0.3.6)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2026.2)
+      tzinfo (>= 1.0.0)
+    uri (1.1.1)
+    virtus (2.0.0)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  rufus-scheduler (~> 3.9)
+  sequel (~> 5.80)
+  sqlite3 (~> 1.7)
+  telegram-bot-ruby (~> 0.19)
+  tzinfo-data
+
+BUNDLED WITH
+   2.6.9
