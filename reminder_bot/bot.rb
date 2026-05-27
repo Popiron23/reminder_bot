@@ -1,3 +1,4 @@
+ENV["TZ"] = "Europe/Moscow"
 require "telegram/bot"
 require "rufus-scheduler"
 require_relative "database"
